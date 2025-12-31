@@ -1,0 +1,15 @@
+{
+    "name": "@qtime/config",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "sideEffects": false,
+    "exports": {
+        "./biome/base": "./biome/base.json",
+        "./biome/react": "./biome/react.json",
+        "./biome/next": "./biome/next.json",
+        "./tsconfig/base": "./tsconfig/base.json",
+        "./tsconfig/react": "./tsconfig/react.json",
+        "./tsconfig/next": "./tsconfig/next.json"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "$schema": "../../../node_modules/@biomejs/biome/configuration_schema.json",
+    "extends": [
+        "./base.json"
+    ],
+    "linter": {
+        "rules": {
+            "a11y": {
+                "useKeyWithClickEvents": "error",
+                "useAltText": "error",
+                "useAnchorContent": "error"
+            },
+            "style": {
+                "useSelfClosingElements": "error"
+            },
+            "correctness": {
+                "useHookAtTopLevel": "error"
+            }
+        }
+    }
+}

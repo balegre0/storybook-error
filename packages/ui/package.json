@@ -1,0 +1,30 @@
+{
+  "name": "@qtime/ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    "./atoms": {
+      "types": "./src/atoms/index.ts",
+      "default": "./src/atoms/index.ts"
+    },
+    "./molecules": {
+      "types": "./src/molecules/index.ts",
+      "default": "./src/molecules/index.ts"
+    },
+    "./organisms": {
+      "types": "./src/organisms/index.ts",
+      "default": "./src/organisms/index.ts"
+    }
+  },
+  "dependencies": {
+    "@qtime/config": "workspace:*",
+    "react": "^19.2.3"
+  },
+  "devDependencies": {
+    "@storybook/react": "^10.1.11",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3"
+  }
+}

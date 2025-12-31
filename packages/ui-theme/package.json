@@ -1,0 +1,17 @@
+{
+    "name": "@qtime/ui-theme",
+    "version": "0.0.0",
+    "private": true,
+    "type": "module",
+    "sideEffects": false,
+    "exports": {
+        ".": "./theme/index.css"
+    },
+    "scripts": {
+        "build": "",
+        "dev": ""
+    },
+    "devDependencies": {
+        "tailwindcss": "^4.1.18"
+    }
+}

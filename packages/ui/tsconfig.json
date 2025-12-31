@@ -1,0 +1,6 @@
+{
+    "extends": "@qtime/config/tsconfig/react",
+    "include": [
+        "src"
+    ]
+}

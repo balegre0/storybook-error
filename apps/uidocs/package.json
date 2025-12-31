@@ -1,0 +1,17 @@
+{
+    "name": "@qtime/uidocs",
+    "private": true,
+    "scripts": {
+        "dev": "storybook dev -p 6006",
+        "build": "storybook build"
+    },
+    "dependencies": {
+        "@qtime/ui-theme": "workspace:*",
+        "tailwindcss": "^4.1.18"
+    },
+    "devDependencies": {
+        "@storybook/addon-essentials": "next",
+        "@storybook/react-vite": "next",
+        "storybook": "next"
+    }
+}

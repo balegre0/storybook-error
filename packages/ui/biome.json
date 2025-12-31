@@ -1,0 +1,5 @@
+{
+    "extends": [
+        "@qtime/config/biome/react"
+    ]
+}
