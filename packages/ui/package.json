@@ -20,11 +20,23 @@
   },
   "dependencies": {
     "@qtime/config": "workspace:*",
-    "react": "^19.2.3"
+    "@qtime/ui-theme": "../ui-theme",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
   },
   "devDependencies": {
     "@storybook/react": "^10.1.11",
+    "@storybook/react-vite": "^10.1.11",
+    "@tailwindcss/vite": "^4.1.18",
+    "tailwindcss": "^4.1.18",
     "@types/react": "^19.2.7",
-    "@types/react-dom": "^19.2.3"
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.2",
+    "storybook": "^10.1.11",
+    "vite": "^7.3.0"
   }
 }
